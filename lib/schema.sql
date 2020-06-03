@@ -17,3 +17,10 @@ CREATE TABLE books (
   year INTEGER,
   series_id INTEGER
 )
+
+CREATE TABLE characters (
+  name TEXT PRIMARY KEY,
+  species TEXT,
+  motto TEXT,
+  author_id INTEGER
+)
