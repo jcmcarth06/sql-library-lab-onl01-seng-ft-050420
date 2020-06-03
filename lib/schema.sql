@@ -24,3 +24,4 @@ CREATE TABLE characters (
   motto TEXT,
   author_id INTEGER
 )
+
